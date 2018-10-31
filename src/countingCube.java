@@ -34,6 +34,7 @@ class CubeStructure {
 		table.put(7, 3);
 		
 		//cube table
+		cubeTable.put(0, 0);
 		cubeTable.put(1, 1);
 		cubeTable.put(8, 2);
 		cubeTable.put(27, 3);
@@ -47,7 +48,7 @@ class CubeStructure {
 	}
 	
 	public void findPerfectCubeRoot(int input) {
-		String result = "";
+		//String result = "";
 		int lastDigit = 0;
 		int temp = 0;
 		

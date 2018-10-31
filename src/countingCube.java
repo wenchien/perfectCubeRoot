@@ -112,8 +112,7 @@ class CubeStructure {
 	}
 	
 	public int getClosest(int value1, int value2, int target) {
-		//can be changed with Math.abs?
-		if (target - value1 >= value2 - target) {
+		if ((Math.abs(target - value1) >= Math.abs(value2 - target)) {
 			return value2;
 		}
 		else {
